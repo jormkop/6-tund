@@ -42,7 +42,7 @@
 			
 			echo "<tr>";
 			echo "<form action= 'table.php' method='post'>";
-			echo "<input type='hidden' name='id' value='".."' >";
+			echo "<input type='hidden' name='id' value='".$array_of_cars[$i]->id."'>";
 			echo "<td>".$array_of_cars[$i]->id."</td>";
 			echo "<td><input name='plate_number' value='".$array_of_cars[$i]->plate."'></td>";
 			echo "<td><input name='color' value='".$array_of_cars[$i]->color."'></td>";
